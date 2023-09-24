@@ -134,45 +134,6 @@ header{
     align-content: space-evenly;
     /* gap: 20px; */
 }
-@media (max-width: 800px) {
-    /* Ajuste a largura dos filmes para dispositivos móveis */
-    .item {
-        width: 100%;
-        padding: 10px;
-    }
-
-    /* Centralize o texto e reduza o tamanho da fonte */
-    .text {
-        text-align: center;
-        font-size: 14px;
-    }
-
-    /* Esconda o botão "Assistir" */
-    .Assistir {
-        display: none;
-    }
-
-    /* Faça a barra de pesquisa ocupar a largura total */
-    .search input {
-        width: 100%;
-    }
-
-    /* Centralize o logotipo na navegação móvel */
-    .navigation .logo {
-        width: auto;
-        margin: 0 auto;
-    }
-
-    /* Ajuste o tamanho da fonte na navegação móvel */
-    .navigation ul li a {
-        font-size: 14px;
-    }
-
-    /* Faça os filmes empilharem verticalmente */
-    .grid {
-        grid-template-columns: 1fr;
-    }
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
